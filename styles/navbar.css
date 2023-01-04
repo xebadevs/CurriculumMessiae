@@ -1,3 +1,6 @@
 .navbar-container {
   height: 10vh;
+  background: #000;
+  color: white;
+  border-bottom: 1px solid #eee;
 }
