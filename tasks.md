@@ -1,6 +1,6 @@
 # Navbar
 
-- Include FontAwesome or some icons library
+- Select better icons, not the FontAwesome ones
 
 - Create the navbar with the neccesary icons for every section and social media
     - Information
