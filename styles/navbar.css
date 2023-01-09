@@ -4,3 +4,8 @@
   color: white;
   border-bottom: 1px solid #eee;
 }
+
+svg {
+  fill: white;
+  width: 3em;
+}
