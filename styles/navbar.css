@@ -22,8 +22,19 @@ svg {
 
 svg:hover,
 svg:focus {
-  fill: cornflowerblue;
   cursor: pointer;
+}
+
+.instagram:hover {
+  fill: rgb(168, 74, 168);
+}
+
+.facebook:hover {
+  fill: cornflowerblue;
+}
+
+.youtube:hover {
+  fill: red;
 }
 
 @media screen and (max-width: 600px) {
