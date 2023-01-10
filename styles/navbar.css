@@ -3,9 +3,41 @@
   background: #000;
   color: white;
   border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-container > div {
+  display: flex;
+  justify-content: center;
+  margin: 0 100px;
 }
 
 svg {
   fill: white;
-  width: 3em;
+  width: 2em;
+  margin: 0 10px;
+  transition: fill 1s ease;
+}
+
+svg:hover,
+svg:focus {
+  fill: cornflowerblue;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar-container > div {
+    margin: 0 50px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .navbar-container > div {
+    margin: 0;
+  }
+
+  .svg {
+    margin: 0 5px;
+  }
 }
