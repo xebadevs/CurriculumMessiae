@@ -4,11 +4,24 @@
   background-color: #000;
   color: white;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 }
 
-img {
-  width: 1200px;
-  height: auto;
+.messi-logo {
+  background-color: #000;
+}
+
+.messi-logo > img {
+  width: 200px;
+  transition: all 0.7s ease;
+}
+
+.messi-logo > img:hover {
+  filter: drop-shadow(10px 10px 10px rgb(98, 104, 160));
+}
+
+.messi-profile > img {
+  width: 550px;
+  transition: all 0.5s ease;
 }
