@@ -2,7 +2,7 @@
   height: 10vh;
   background: #000;
   color: white;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid rgb(98, 104, 160, 0.2);
   display: flex;
   justify-content: center;
 }
@@ -14,10 +14,10 @@
 }
 
 svg {
-  fill: white;
+  fill: rgba(255, 255, 255, 0.6);
   width: 2em;
   margin: 0 10px;
-  transition: fill 1s ease;
+  transition: all 1s ease;
 }
 
 svg:hover,
@@ -27,14 +27,17 @@ svg:focus {
 
 .instagram:hover {
   fill: rgb(168, 74, 168);
+  transform: rotate(-15deg);
 }
 
 .facebook:hover {
-  fill: cornflowerblue;
+  fill: #1877f2;
+  transform: rotate(-20deg);
 }
 
 .youtube:hover {
   fill: red;
+  transform: rotate(-15deg);
 }
 
 @media screen and (max-width: 600px) {
