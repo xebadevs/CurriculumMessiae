@@ -1,3 +1,5 @@
+@import url(./colors.css);
+
 .main-container {
   box-sizing: border-box;
   height: 90vh;
@@ -18,7 +20,7 @@
 }
 
 .messi-logo > img:hover {
-  filter: drop-shadow(10px 10px 10px rgb(98, 104, 160));
+  filter: drop-shadow(10px 10px 10px var(--light-blue));
 }
 
 .messi-profile > img {

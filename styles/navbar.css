@@ -1,3 +1,5 @@
+@import url(./colors.css);
+
 .navbar-container {
   height: 10vh;
   background: #000;
@@ -14,7 +16,7 @@
 }
 
 svg {
-  fill: rgba(255, 255, 255, 0.6);
+  fill: var(--svg-main-color);
   width: 2em;
   margin: 0 10px;
   transition: all 1s ease;
@@ -25,18 +27,29 @@ svg:focus {
   cursor: pointer;
 }
 
+.information:hover,
+.statistics:hover,
+.timeline:hover {
+  transform: rotate(15deg);
+  fill: var(--light-blue);
+}
+
+.statistics:hover {
+  fill: #fff;
+}
+
 .instagram:hover {
-  fill: rgb(168, 74, 168);
+  fill: var(--svg-instagram);
   transform: rotate(-15deg);
 }
 
 .facebook:hover {
-  fill: #1877f2;
+  fill: var(--svg-facebook);
   transform: rotate(-20deg);
 }
 
 .youtube:hover {
-  fill: red;
+  fill: var(--svg-youtube);
   transform: rotate(-15deg);
 }
 
