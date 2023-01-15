@@ -11,4 +11,12 @@
 
 # Main
 
-- Select a typography for main section
+- Add some details in the black background
+- Fix the responsive issues in this section
+
+
+# Information
+
+- Get enough info to include in this section
+- Compare with statistics info
+- Can we include both in just one section?

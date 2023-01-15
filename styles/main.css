@@ -3,7 +3,7 @@
 .main-container {
   box-sizing: border-box;
   height: 90vh;
-  background-color: #000;
+  background-color: #500;
   color: white;
 }
 
@@ -33,15 +33,17 @@
 }
 
 .rotate {
-  animation: rotation 3s infinite linear;
+  animation: rotation 4s infinite linear;
 }
 
 @keyframes rotation {
   from {
-    transform: rotateY(10deg);
+    transform: rotateY(13deg);
+    /* transform: rotateX(5deg); */
   }
   to {
-    transform: rotateY(-10deg);
+    transform: rotateY(-13deg);
+    /* transform: rotateX(-5deg); */
   }
 }
 
