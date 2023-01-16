@@ -1,3 +1,6 @@
+@import url(./colors.css);
+
 .info-container {
   height: 100vh;
+  background-color: var(--light-blue);
 }
