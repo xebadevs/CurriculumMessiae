@@ -6,7 +6,7 @@
   color: white;
   border-bottom: 1px solid rgb(98, 104, 160, 0.2);
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .navbar-container > div {
@@ -17,8 +17,8 @@
 
 svg {
   fill: var(--svg-main-color);
-  width: 2em;
-  margin: 0 10px;
+  width: 2.2em;
+  margin: 0 20px;
   transition: all 1s ease;
 }
 
@@ -45,7 +45,7 @@ svg:focus {
 
 .facebook:hover {
   fill: var(--svg-facebook);
-  transform: rotate(-20deg);
+  transform: rotate(-15deg);
 }
 
 .youtube:hover {
