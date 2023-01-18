@@ -59,6 +59,11 @@
   .main-container {
     background: #000;
   }
+
+  .messi-logo > img {
+    width: 110px;
+    margin-top: 30px;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -68,5 +73,11 @@
 
   .navbar-container > div {
     margin: 0;
+  }
+}
+
+@media screen and (max-height: 740px) {
+  .messi-logo > img {
+    width: 90px;
   }
 }
