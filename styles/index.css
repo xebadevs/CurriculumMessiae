@@ -5,3 +5,7 @@
 @import url(./statistics.css);
 @import url(./timeline.css);
 @import url(./footer.css);
+
+.main-container {
+    height: 100vh;
+}
