@@ -8,12 +8,6 @@
   - Instagram
   - YouTube
 
-
-# Main
-
-- Fix the responsive issues in this section
-
-
 # Information
 
 - Get enough info to include in this section
