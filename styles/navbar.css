@@ -53,18 +53,16 @@ svg:focus {
   transform: rotate(-15deg);
 }
 
-@media screen and (max-width: 600px) {
-  .navbar-container > div {
-    margin: 0 50px;
+@media screen and (max-width: 768px) {
+  svg {
+    width: 1.8em;
+    margin: 0 15px;
+    justify-content: center;
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 576px) {
   .navbar-container > div {
     margin: 0;
-  }
-
-  .svg {
-    margin: 0 5px;
   }
 }

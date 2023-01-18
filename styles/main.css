@@ -49,6 +49,7 @@
   .messi-logo > img {
     width: 130px;
   }
+
   .messi-profile > img {
     width: 420px;
   }
@@ -56,10 +57,16 @@
 
 @media screen and (max-width: 992px) {
   .main-container {
-    box-sizing: border-box;
-    height: 90vh;
-    background-color: #000;
-    color: white;
     background: #000;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .messi-profile > img {
+    width: 320px;
+  }
+
+  .navbar-container > div {
+    margin: 0;
   }
 }
