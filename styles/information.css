@@ -43,7 +43,7 @@ body {
 .front {
   cursor: pointer;
   height: 100%;
-  background-color: #f4d201;
+  background-color: rgb(143,27,38,0.8);
   backface-visibility: hidden;
   border-radius: 50px;
   background-size: cover;
