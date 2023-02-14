@@ -6,6 +6,10 @@
 @import url(./timeline.css);
 @import url(./footer.css);
 
+body {
+    scroll-behavior: smooth;
+}
+
 .main-container {
     height: 100vh;
 }
