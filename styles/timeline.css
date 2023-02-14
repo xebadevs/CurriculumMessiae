@@ -1,3 +1,36 @@
 .timeline-container {
   height: 100vh;
 }
+
+.timeline-section {
+  background-color: #24292d;
+  min-height: 100vh;
+  padding: 100px 15px;
+}
+
+.timeline-items {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.timeline-item {
+  background-color: #2f363e;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.timeline-item:nth-child(odd) {
+  padding-right: calc(50% + 30px);
+}
+
+.timeline-item:nth-child(even) {
+  padding-left: calc(50% + 30px);
+}
+
+.timeline-content {
+  background-color: #2f363e;
+  padding: 30px;
+  border-radius: 5px;
+}
