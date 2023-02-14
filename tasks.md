@@ -8,6 +8,8 @@
   - Instagram
   - YouTube
 
+  - Fix responsive in every display
+
 # Information and stats
 
 - Get enough info to include in this section
@@ -18,6 +20,8 @@
     - Second, info with Argentinian selection
     - Third, info with Barcelona
     - Four, info with PSG
+
+- Fix responsive in every display
 
 # Timeline
 
