@@ -50,19 +50,6 @@
   backface-visibility: hidden;
 }
 
-.front {
-  cursor: pointer;
-  height: 100%;
-  background-color: var(--card-front);
-  backface-visibility: hidden;
-  border-radius: 50px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.7));
-  box-shadow: rgba(50, 50, 93, 0.25) 180px 30px 60px -12px inset,
-    rgba(0, 0, 0, 0.8) 30px 18px 36px -18px inset;
-}
-
 .card-1 {
   background-image: url(../assets/images/card-profile.jpg);
 }
@@ -79,15 +66,25 @@
   background-image: url(../assets/images/card-psg.png);
 }
 
+.front {
+  cursor: pointer;
+  height: 100%;
+  background-color: rgb(143, 27, 38, 0.8);
+  backface-visibility: hidden;
+  border-radius: 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.7));
+  box-shadow: rgba(50, 50, 93, 0.25) 180px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.8) 30px 18px 36px -18px inset;
+}
+
 .back {
   transform: rotateY(180deg);
   position: absolute;
   border-radius: 50px;
   height: 450px;
-  background: var(--card-front);
-  box-shadow: rgba(15, 15, 92, 0.25) 180px 30px 60px -12px inset,
-    rgba(0, 0, 0, 0.8) 30px 18px 36px -18px inset;
-  color: var(--svg-main-color);
+  background: pink;
 }
 
 .content {
@@ -140,14 +137,22 @@
   .card-container {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  .front {
+    height: 400px;
+  }
+
+  .back {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+  }
 }
 
 /* IPads */
-@media screen and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
-  .wrapper,
-  .single-card {
-    height: 350px;
-    max-width: 230px;
-    margin-right: 60px;
+@media screen and (max-width: 768px), screen and (max-height: 1024px), (orientation: portrait) {
+  .info-container {
+    height: auto;
+    padding: 100px 0;
   }
 }

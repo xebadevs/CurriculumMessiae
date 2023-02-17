@@ -5,6 +5,7 @@
 @import url(./statistics.css);
 @import url(./timeline.css);
 @import url(./footer.css);
+@import url(./typography.css);
 
 body {
     scroll-behavior: smooth;
