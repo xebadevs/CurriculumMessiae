@@ -38,7 +38,7 @@ svg:focus {
   fill: var(--light-blue);
 }
 
-.statistics:hover {
+.timeline:hover {
   fill: #fff;
 }
 
