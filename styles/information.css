@@ -4,14 +4,28 @@
 .title {
   text-align: center;
   color: #595f92;
-  color: rgba(255,255,255,0.5);
+  color: rgba(255, 255, 255, 0.5);
   font-size: 3rem;
   font-family: "Gajraj One", cursive;
   letter-spacing: 5px;
   text-transform: uppercase;
-
-  /* color: #0f0f0f; */
   text-shadow: -1px -1px 3px #020202, 2px 2px 4px #1b1b1b;
+}
+
+.twinkle {
+  animation-name: twinkle;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes twinkle {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
 }
 
 .info-container {
