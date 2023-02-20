@@ -1,20 +1,32 @@
 @import url(./colors.css);
+@import url(./typography.css);
+
+.title {
+  text-align: center;
+  color: #595f92;
+  color: rgba(255,255,255,0.5);
+  font-size: 3rem;
+  font-family: "Gajraj One", cursive;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+
+  /* color: #0f0f0f; */
+  text-shadow: -1px -1px 3px #020202, 2px 2px 4px #1b1b1b;
+}
 
 .info-container {
-  align-items: center;
   justify-content: center;
   height: 100vh;
   background: linear-gradient(180deg, rgba(98, 104, 160, 1) 11%, rgba(0, 0, 0, 1) 100%);
 }
 
 .info-container .title {
-  padding-top: 15vh;
+  padding-top: 5vh;
   text-align: center;
 }
 
 .card-container {
   display: flex;
-  align-items: center;
   justify-content: center;
   gap: 120px;
   padding-top: 20vh;
@@ -87,7 +99,7 @@
   height: 450px;
   background: var(--card-front);
   color: var(--svg-main-color);
-  box-shadow: rgba(17, 17, 87, 0.20) 180px 30px 60px -12px inset,
+  box-shadow: rgba(17, 17, 87, 0.2) 180px 30px 60px -12px inset,
     rgba(0, 0, 0, 0.8) 30px 18px 36px -18px inset;
 }
 
@@ -133,6 +145,10 @@
 }
 
 @media screen and (max-width: 700px) {
+  .title {
+    font-size: 2rem;
+  }
+
   .info-container {
     height: auto;
     padding: 100px 0;
@@ -150,14 +166,20 @@
     height: 400px;
     display: flex;
     justify-content: center;
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
 }
 
 /* IPads */
-@media screen and (max-width: 768px), screen and (max-height: 1024px), (orientation: portrait) {
+@media screen and (max-width: 768px),
+  screen and (max-height: 1024px),
+  (orientation: portrait) {
   .info-container {
     height: auto;
     padding: 100px 0;
+  }
+
+  .title {
+    margin-bottom: 60px;
   }
 }
