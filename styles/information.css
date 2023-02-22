@@ -4,12 +4,11 @@
 .title {
   text-align: center;
   color: #595f92;
-  color: rgba(255, 255, 255, 0.5);
   font-size: 3rem;
   font-family: "Gajraj One", cursive;
   letter-spacing: 5px;
   text-transform: uppercase;
-  text-shadow: -1px -1px 3px #020202, 2px 2px 4px #1b1b1b;
+  text-shadow: -1px -1px 3px #020202, 2px 2px 4px #ffffff;
 }
 
 .twinkle {
@@ -30,7 +29,6 @@
 
 .info-container {
   justify-content: center;
-  height: 100vh;
   background: linear-gradient(180deg, rgba(98, 104, 160, 1) 11%, rgba(0, 0, 0, 1) 100%);
 }
 
@@ -51,6 +49,8 @@
   height: 450px;
   max-width: 300px;
   margin: relative;
+  margin-bottom: 300px;
+
 }
 
 .wrapper {
