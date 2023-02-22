@@ -79,6 +79,17 @@ body{
 	line-height: 22px;
 }
 
+/* Backgrounds */
+
+.y-2015 {
+	transition: all 1 ease;
+}
+
+.y-2015:hover {
+	background: url("https://c4.wallpaperflare.com/wallpaper/16/671/726/lionel-messi-football-barcelona-hd-wallpaper-preview.jpg");
+	opacity: .5;
+}
+
 /* responsive */
 @media(max-width: 767px){
 	.timeline-items::before{
