@@ -105,4 +105,25 @@ body {
   .timeline-dot {
     left: 0;
   }
+  .y-2004:hover,
+  .y-2005:hover,
+  .y-2006:hover,
+  .y-2007:hover,
+  .y-2008:hover,
+  .y-2009:hover,
+  .y-2010:hover,
+  .y-2011:hover,
+  .y-2012:hover,
+  .y-2013:hover,
+  .y-2014:hover,
+  .y-2015:hover,
+  .y-2016:hover,
+  .y-2017:hover,
+  .y-2018:hover,
+  .y-2020:hover,
+  .y-2021:hover,
+  .y-2022:hover,
+  .y-2023:hover {
+    height: 159px;
+  }
 }
