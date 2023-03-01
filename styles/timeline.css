@@ -69,21 +69,24 @@ body {
   font-size: 20px;
   color: #ffffff;
   margin: 0 0 10px;
-  text-transform: capitalize;
-  font-weight: 500;
+  font-weight: 600;
 }
 .timeline-content p {
   color: #c8c8c8;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 22px;
+  font-family: Mukta;
 }
 
 /* Backgrounds */
 
 .y-2004:hover {
-  background: url("https://c4.wallpaperflare.com/wallpaper/16/671/726/lionel-messi-football-barcelona-hd-wallpaper-preview.jpg");
-  opacity: 0.5;
+  background: url(../assets/images/timeline/2004.jpg);
+}
+
+.y-2005:hover {
+  background: url(../assets/images/timeline/2005.jpg);
 }
 
 /* responsive */

@@ -19,10 +19,14 @@
 
 - Creates dynamically every card
 - Automation:
+
   - Year of the card
   - Content from a .JSON file, order by incremented id (or equal to the year)
   - Image source (same order in assets)
   - Test functionallity
+
+- Cards: 470 x 137 (crop files)
+- Dark files: https://pinetools.com/darken-image
 
 # Others
 
