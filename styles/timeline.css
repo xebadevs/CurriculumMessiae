@@ -12,7 +12,18 @@ body {
   font-family: "Poppins", sans-serif;
 }
 .timeline-section {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(41, 36, 60, 1) 100%);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(39, 39, 77, 1) 50%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(30, 30, 52, 1) 50%,
+    rgba(0, 0, 0, 1) 100%
+  );
   min-height: 100vh;
   padding: 100px 15px;
 }

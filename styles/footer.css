@@ -1,5 +1,17 @@
 .footer-container {
-  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  padding-bottom: 15px;
   background-color: #000;
-  color: white;
+  border-top: 1px solid var(--light-blue);
+}
+
+.footer-container a {
+  color: var(--light-blue);
+  text-decoration: none;
+}
+.footer-container a:hover {
+  color: var(--svg-main-color);
 }
