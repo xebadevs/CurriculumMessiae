@@ -69,21 +69,22 @@ body {
 .timeline-date {
   font-size: 18px;
   color: #eaa023;
-  margin: 6px 0 15px;
+  margin: 3px 0 15px;
+  font-family: Mukta;
 }
 .timeline-content {
-  background-color: #2f363e;
+  background: linear-gradient(125deg, rgba(47, 54, 62, 1) 0%, rgba(69, 78, 88, 1) 100%);
   padding: 30px;
   border-radius: 5px;
 }
 .timeline-content h3 {
   font-size: 20px;
-  color: #ffffff;
+  color: #eaa023;
   margin: 0 0 10px;
   font-weight: 600;
 }
 .timeline-content p {
-  color: #c8c8c8;
+  color: #fff;
   font-size: 16px;
   font-weight: 400;
   line-height: 22px;
