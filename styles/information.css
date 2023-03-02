@@ -50,7 +50,6 @@
   max-width: 300px;
   margin: relative;
   margin-bottom: 300px;
-
 }
 
 .wrapper {
@@ -172,6 +171,11 @@
     grid-template-columns: repeat(1, 1fr);
   }
 
+  .wrapper,
+  .single-card {
+    margin-bottom: 50px;
+  }
+
   .front {
     height: 400px;
   }
@@ -195,5 +199,10 @@
 
   .title {
     margin-bottom: 60px;
+  }
+
+  .wrapper,
+  .single-card {
+    margin-bottom: 100px;
   }
 }

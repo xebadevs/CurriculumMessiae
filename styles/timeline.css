@@ -86,7 +86,7 @@ body {
 .timeline-content p {
   color: #fff;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 22px;
   font-family: Mukta;
 }
@@ -99,6 +99,78 @@ body {
 
 .y-2005:hover {
   background: url(../assets/images/timeline/2005.jpg);
+}
+
+.y-2006:hover {
+  background: url(../assets/images/timeline/2006.jpg);
+}
+
+.y-2007:hover {
+  background: url(../assets/images/timeline/2007.jpg);
+}
+
+.y-2008:hover {
+  background: url(../assets/images/timeline/2008.jpg);
+}
+
+.y-2009:hover {
+  background: url(../assets/images/timeline/2009.jpg);
+}
+
+.y-2010:hover {
+  background: url(../assets/images/timeline/2010.jpg);
+}
+
+.y-2011:hover {
+  background: url(../assets/images/timeline/2011.jpg);
+}
+
+.y-2012:hover {
+  background: url(../assets/images/timeline/2012.jpg);
+}
+
+.y-2013:hover {
+  background: url(../assets/images/timeline/2013.jpg);
+}
+
+.y-2014:hover {
+  background: url(../assets/images/timeline/2014.jpg);
+}
+
+.y-2015:hover {
+  background: url(../assets/images/timeline/2015.jpg);
+}
+
+.y-2016:hover {
+  background: url(../assets/images/timeline/2016.jpg);
+}
+
+.y-2017:hover {
+  background: url(../assets/images/timeline/2017.jpg);
+}
+
+.y-2018:hover {
+  background: url(../assets/images/timeline/2018.jpg);
+}
+
+.y-2019:hover {
+  background: url(../assets/images/timeline/2019.jpg);
+}
+
+.y-2020:hover {
+  background: url(../assets/images/timeline/2020.jpg);
+}
+
+.y-2021:hover {
+  background: url(../assets/images/timeline/2021.jpg);
+}
+
+.y-2022:hover {
+  background: url(../assets/images/timeline/2022.jpg);
+}
+
+.y-2023:hover {
+  background: url(../assets/images/timeline/2023.jpg);
 }
 
 /* responsive */
