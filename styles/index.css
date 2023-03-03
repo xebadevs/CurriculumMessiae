@@ -7,10 +7,10 @@
 @import url(./footer.css);
 @import url(./typography.css);
 
-body {
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
 .main-container {
-    height: 100vh;
+  height: 100vh;
 }
