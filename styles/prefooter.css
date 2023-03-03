@@ -4,7 +4,7 @@
   background-color: #020203;
 }
 
-.prefooter-image > img {
+.prefooter-image > a > img {
   width: 250px;
   height: auto;
 }
