@@ -11,6 +11,12 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+
+.title-timeline {
+  color: #3437549f;
+  margin-bottom: 150px;
+}
+
 .timeline-section {
   background: linear-gradient(
     0deg,
@@ -175,6 +181,9 @@ body {
 
 /* responsive */
 @media (max-width: 767px) {
+  .title-timeline {
+    margin-bottom: 100px;
+  }
   .timeline-items::before {
     left: 7px;
   }
