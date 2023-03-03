@@ -117,7 +117,6 @@ body {
 
 .y-2008:hover {
   background: url(../assets/images/timeline/2008.jpg);
-  background-repeat: no-repeat;
 }
 
 .y-2009:hover {
@@ -130,7 +129,6 @@ body {
 
 .y-2011:hover {
   background: url(../assets/images/timeline/2011.jpg);
-  background-repeat: no-repeat;
 }
 
 .y-2012:hover {
@@ -139,7 +137,6 @@ body {
 
 .y-2013:hover {
   background: url(../assets/images/timeline/2013.jpg);
-  background-repeat: no-repeat;
 }
 
 .y-2014:hover {
@@ -148,12 +145,10 @@ body {
 
 .y-2015:hover {
   background: url(../assets/images/timeline/2015.jpg);
-  background-repeat: no-repeat;
 }
 
 .y-2016:hover {
   background: url(../assets/images/timeline/2016.jpg);
-  background-repeat: no-repeat;
 }
 
 .y-2017:hover {
