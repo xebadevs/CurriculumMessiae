@@ -1,0 +1,10 @@
+.prefooter-image {
+  display: flex;
+  justify-content: center;
+  background-color: #020203;
+}
+
+.prefooter-image > img {
+  width: 250px;
+  height: auto;
+}
