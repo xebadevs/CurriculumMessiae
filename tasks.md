@@ -1,19 +1,14 @@
+[Pendants]
+
 # Navbar
 
 - Show icon reference somewhere on hover:
 
-  - Information
   - Statistics
   - Timeline
   - Facebook
   - Instagram
   - YouTube
-
-  - Fix responsive in every display
-
-# Information and stats
-
-- Get enough info to include in this section
 
 # Timeline
 
@@ -24,11 +19,3 @@
   - Content from a .JSON file, order by incremented id (or equal to the year)
   - Image source (same order in assets)
   - Test functionallity
-
-- Cards: 470 x 137 (crop files)
-- Dark files: https://pinetools.com/darken-image
-
-# Others
-
-- 01/03/2023
-- Cretes a cronogram of tasks
