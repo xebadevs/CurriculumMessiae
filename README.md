@@ -22,3 +22,16 @@ Fortunately, I am so busy with development work that I cannot spend more time on
 
 Lio Messi diserves, without a doubt, something much better.
 Maybe I'll come back to this in the future to improve it.
+
+<br>
+
+## License
+
+Eclipse Public License 2.0
+
+<br>
+
+## Disclaimer
+
+None of the images and logos used on this website are my own. \
+This project does not seek any commercial intention.
