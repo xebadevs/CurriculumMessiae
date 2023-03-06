@@ -1,6 +1,15 @@
 # CurriculumMessiae :trophy:
 
-Integrative final project for 'Front End Academy 2022'.
+Integrative final project for **Front End Academy 2022**.
+
+<br>
+
+## Try it on GitHub Pages
+> https://xebadevs.github.io/Synchrophraser
+
+<br>
+
+## Context
 
 This instance simulates a newly hired developer who is given the first task of creating a CV.
 
