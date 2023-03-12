@@ -8,7 +8,7 @@ Result: pending.
 <br>
 
 ## Try it on GitHub Pages
-> https://xebadevs.github.io/Synchrophraser
+> https://xebadevs.github.io/CurriculumMessiae/
 
 <br>
 
