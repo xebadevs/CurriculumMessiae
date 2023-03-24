@@ -3,7 +3,7 @@
 Integrative final project for **Front End Academy 2022**.
 
 State: delivered. \
-Result: pending.
+Result: approved.
 
 <br>
 
