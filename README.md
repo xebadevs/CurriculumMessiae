@@ -47,5 +47,5 @@ Eclipse Public License 2.0
 
 ## Disclaimer
 
-None of the images and logos used on this website are my own. \
+None of the images and logos used on this website are of my own. \
 This project does not seek any commercial intention.
